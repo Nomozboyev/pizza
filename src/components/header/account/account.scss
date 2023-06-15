@@ -1,0 +1,33 @@
+.account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .accountSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width:390px;
+    margin: 0px 10px
+  }
+}
+.myAccount {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  text-decoration: none;
+  color: black;
+  height: 64px;
+}
+.sideMenu {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

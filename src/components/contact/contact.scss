@@ -1,0 +1,28 @@
+.contact{
+    gap: 16px;
+    .number{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+    }
+    .location{
+        display: flex;
+        justify-content: flex-start;
+        gap: 12px;
+        align-items: center;
+    }
+    .socialNetwork{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24px;
+        span{ display: flex;
+            justify-content: flex-start;
+        gap: 12px;
+        align-items: center;
+
+        }
+
+    }
+}
